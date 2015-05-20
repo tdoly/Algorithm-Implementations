@@ -1,14 +1,34 @@
 #Algorithm Implementations
 
+[![Join the chat at https://gitter.im/kennyledet/Algorithm-Implementations](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/kennyledet/Algorithm-Implementations?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 (Note: there is a backstory on my motivation for starting this at the bottom of this README)
 
-Website coming soon!
+
+
+Updates
+=======
+**Update 1/4/15**
+Our site is now getting hundreds of unique visitors and thousands of pageviews per day :)
+
+[Algorithm.zone](http://algorithm.zone/)
+
+
+**Update 06/09/14**
+I have released a native Android app for viewing the algorithms! It's a wrapper around the web app with some native functionality. Check it out on Google Play here
+[Algorithm Implementations Android App](https://play.google.com/store/apps/details?id=com.kennyledet.algorithms.app.grmeb)
+
+**Update 05/09/14:** 
+I am working on a web application that will tie things up in a much more fluid way, and help exhibit the algorithms to those who either don't know much about git/github, or just can't be vexed clicking through all the folders. This will open the repo up to a much wider audience in general!
+
+You can see a preview here!
+[Algorithms Implementations Website](http://dry-sea-7022.herokuapp.com/algorithms)
+
+Please offer up your suggestions in the Issues section of the Github repository
 
 **Update 12/30/13:** I have given the 3 top committers (jcla1, PatrickYevsukov, dalleng) collaborator access. This was very well earned, as they have managed to contribute much more to this repo than I have had the time to.
 
 Again, thanks so much for the consistency guys, it is extremely appreciated. It made sense to start with giving these guys collab access for obvious reasons, but I also thank every single person who has even submitted a pull request. Without you all, this repository would be nothing.
-
-To do my part more, I am now working on a web application that will tie things up in a much more fluid way, and help exhibit the algorithms to those who either don't know much about git/github, or just can't be vexed clicking through all the folders. This will open the repo up to a much wider audience in general!
 
 Purpose
 ----------
@@ -26,6 +46,8 @@ Conventions
 
 		Algorithm_Name/Language_Name/username/filename.extension
 		Algorithm_Name/Language_Name/username/filename_test.extension
+
++ Please include a description of the algorithm you are implementing; it doesn't really matter if it's copied from Wikipedia or not (citations please), but this really does help people who are trying to find new algorithms to implement and contribute by browsing this repository. 
 
 + When implementing a new algorithm, create a "tags" file in the algorithm's root directory and add some appropriate tags
 + Please package your code in a directory bearing your GitHub username. `git blame` is cool, and has many more appropriate applications, but in this context I'd rather pull a flat list of files and be able to check out everyone's contributions that way than have to look through the revisions.
